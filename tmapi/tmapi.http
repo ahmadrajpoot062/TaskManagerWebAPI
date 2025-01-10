@@ -1,0 +1,6 @@
+@tmapi_HostAddress = http://localhost:5049
+
+GET {{tmapi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
