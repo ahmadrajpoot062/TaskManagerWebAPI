@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("tmapi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a28a07732bd439b6d46a269336a82241ead6b654")]
 [assembly: System.Reflection.AssemblyProductAttribute("tmapi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("tmapi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

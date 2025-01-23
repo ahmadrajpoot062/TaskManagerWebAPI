@@ -1,0 +1,12 @@
+2025-01-23 22:28:14.390 +05:00 [INF] Starting up the application
+2025-01-23 22:28:48.563 +05:00 [INF] Starting up the application
+2025-01-23 22:31:28.794 +05:00 [INF] Register endpoint called for username: string.
+2025-01-23 22:31:29.181 +05:00 [INF] Register method called for username: string
+2025-01-23 22:31:33.390 +05:00 [INF] User 'string' registered successfully with ID 1.
+2025-01-23 22:31:33.403 +05:00 [INF] User registered successfully with username: string.
+2025-01-23 22:31:43.390 +05:00 [INF] Login endpoint called for username: string.
+2025-01-23 22:31:43.396 +05:00 [INF] Login method called for username: string
+2025-01-23 22:31:44.405 +05:00 [INF] Generating JWT token for username: string.
+2025-01-23 22:31:44.578 +05:00 [INF] JWT token generated successfully for username: string.
+2025-01-23 22:31:44.583 +05:00 [INF] Login successful for username: string. JWT token generated.
+2025-01-23 22:31:44.587 +05:00 [INF] User logged in successfully: string.

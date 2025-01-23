@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mmob3\\Desktop\\tmapi-master\\tmapi\\tmapi.csproj": {}
+    "C:\\Users\\mmob3\\Desktop\\tmapi\\tmapi\\tmapi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mmob3\\Desktop\\tmapi-master\\tmapi\\tmapi.csproj": {
+    "C:\\Users\\mmob3\\Desktop\\tmapi\\tmapi\\tmapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mmob3\\Desktop\\tmapi-master\\tmapi\\tmapi.csproj",
+        "projectUniqueName": "C:\\Users\\mmob3\\Desktop\\tmapi\\tmapi\\tmapi.csproj",
         "projectName": "tmapi",
-        "projectPath": "C:\\Users\\mmob3\\Desktop\\tmapi-master\\tmapi\\tmapi.csproj",
+        "projectPath": "C:\\Users\\mmob3\\Desktop\\tmapi\\tmapi\\tmapi.csproj",
         "packagesPath": "C:\\Users\\mmob3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mmob3\\Desktop\\tmapi-master\\tmapi\\obj\\",
+        "outputPath": "C:\\Users\\mmob3\\Desktop\\tmapi\\tmapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mmob3\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -67,6 +67,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

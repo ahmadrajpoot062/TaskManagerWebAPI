@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tmapi", "tmapi\tmapi.csproj", "{615D2083-7B52-4022-8FFB-AF6557A9488E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tmapi", "tmapi\tmapi.csproj", "{615D2083-7B52-4022-8FFB-AF6557A9488E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tmapi.Tests", "tmapi.Tests\tmapi.Tests.csproj", "{F07A6210-4B78-4DD2-A471-0136D7816ED0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{615D2083-7B52-4022-8FFB-AF6557A9488E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{615D2083-7B52-4022-8FFB-AF6557A9488E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{615D2083-7B52-4022-8FFB-AF6557A9488E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F07A6210-4B78-4DD2-A471-0136D7816ED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F07A6210-4B78-4DD2-A471-0136D7816ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F07A6210-4B78-4DD2-A471-0136D7816ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F07A6210-4B78-4DD2-A471-0136D7816ED0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

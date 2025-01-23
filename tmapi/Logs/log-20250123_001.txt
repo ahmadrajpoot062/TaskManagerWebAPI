@@ -1,0 +1,135 @@
+2025-01-23 22:28:50.337 +05:00 [INF] Starting up the application
+2025-01-23 22:28:50.615 +05:00 [FTL] Application start-up failed
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\mmob3\Desktop\tmapi\tmapi\Program.cs:line 60
+2025-01-23 22:32:35.050 +05:00 [INF] Starting up the application
+2025-01-23 22:38:03.750 +05:00 [INF] GetUserByUsername endpoint called with username: ahmadRajpoot065.
+2025-01-23 22:38:07.605 +05:00 [WRN] User with username ahmadRajpoot065 not found.
+2025-01-23 22:38:07.605 +05:00 [WRN] No tasks found for user: ahmadRajpoot065.
+2025-01-23 22:38:07.651 +05:00 [INF] GetUserByUsername endpoint called with username: ahmadRajpoot065.
+2025-01-23 22:38:07.871 +05:00 [WRN] User with username ahmadRajpoot065 not found.
+2025-01-23 22:38:07.871 +05:00 [WRN] No tasks found for user: ahmadRajpoot065.
+2025-01-23 22:40:06.731 +05:00 [INF] Task with ID 1 created successfully.
+2025-01-23 22:40:06.836 +05:00 [INF] 1 tasks found for user: ahmadRajpoot065.
+2025-01-23 22:52:21.360 +05:00 [INF] Starting up the application
+2025-01-23 22:53:12.767 +05:00 [INF] Login endpoint called for username: string.
+2025-01-23 22:53:12.785 +05:00 [INF] Login method called for username: string
+2025-01-23 22:53:16.410 +05:00 [INF] Generating JWT token for username: string.
+2025-01-23 22:53:16.450 +05:00 [INF] JWT token generated successfully for username: string.
+2025-01-23 22:53:16.454 +05:00 [INF] Login successful for username: string. JWT token generated.
+2025-01-23 22:53:16.457 +05:00 [INF] User logged in successfully: string.
+2025-01-23 22:53:25.484 +05:00 [INF] Login endpoint called for username: string.
+2025-01-23 22:53:25.489 +05:00 [INF] Login method called for username: string
+2025-01-23 22:53:26.357 +05:00 [WRN] Login failed: Invalid credentials for username: string.
+2025-01-23 22:53:26.365 +05:00 [ERR] Error occurred during login for username: string.
+System.Exception: Invalid username or password.
+   at tmapi.Services.AuthService.Login(LoginRequest request) in C:\Users\mmob3\Desktop\tmapi\tmapi\Services\AuthService.cs:line 67
+2025-01-23 22:53:26.539 +05:00 [WRN] Unauthorized login attempt for username: string. Reason: Invalid username or password.
+2025-01-23 22:54:49.717 +05:00 [INF] GetUserByUsername endpoint called with username: ahmadRajpoot065.
+2025-01-23 22:54:49.895 +05:00 [WRN] User with username ahmadRajpoot065 not found.
+2025-01-23 22:54:49.910 +05:00 [INF] GetUserByUsername endpoint called with username: ahmadRajpoot065.
+2025-01-23 22:54:49.937 +05:00 [WRN] User with username ahmadRajpoot065 not found.
+2025-01-23 22:54:50.001 +05:00 [INF] 1 tasks found for user: ahmadRajpoot065.
+2025-01-23 22:54:50.088 +05:00 [INF] 1 tasks found for user: ahmadRajpoot065.
+2025-01-23 22:55:16.535 +05:00 [INF] Register endpoint called for username: mahmad.
+2025-01-23 22:55:16.540 +05:00 [INF] Register method called for username: mahmad
+2025-01-23 22:55:17.407 +05:00 [INF] User 'mahmad' registered successfully with ID 2.
+2025-01-23 22:55:17.412 +05:00 [INF] User registered successfully with username: mahmad.
+2025-01-23 22:55:32.251 +05:00 [INF] Login endpoint called for username: mahmad27.
+2025-01-23 22:55:32.255 +05:00 [INF] Login method called for username: mahmad27
+2025-01-23 22:55:32.261 +05:00 [WRN] Login failed: Invalid credentials for username: mahmad27.
+2025-01-23 22:55:32.264 +05:00 [ERR] Error occurred during login for username: mahmad27.
+System.Exception: Invalid username or password.
+   at tmapi.Services.AuthService.Login(LoginRequest request) in C:\Users\mmob3\Desktop\tmapi\tmapi\Services\AuthService.cs:line 67
+2025-01-23 22:55:32.271 +05:00 [WRN] Unauthorized login attempt for username: mahmad27. Reason: Invalid username or password.
+2025-01-23 22:55:42.560 +05:00 [INF] Login endpoint called for username: mahmad.
+2025-01-23 22:55:42.570 +05:00 [INF] Login method called for username: mahmad
+2025-01-23 22:55:42.952 +05:00 [INF] Generating JWT token for username: mahmad.
+2025-01-23 22:55:42.956 +05:00 [INF] JWT token generated successfully for username: mahmad.
+2025-01-23 22:55:42.958 +05:00 [INF] Login successful for username: mahmad. JWT token generated.
+2025-01-23 22:55:42.960 +05:00 [INF] User logged in successfully: mahmad.
+2025-01-23 22:55:42.983 +05:00 [INF] GetUserByUsername endpoint called with username: mahmad.
+2025-01-23 22:55:42.987 +05:00 [WRN] No tasks found for user: mahmad.
+2025-01-23 22:55:42.989 +05:00 [INF] User with username mahmad retrieved successfully.
+2025-01-23 22:55:43.027 +05:00 [WRN] No tasks found for user: mahmad.
+2025-01-23 22:59:02.862 +05:00 [INF] Task with ID 2 created successfully.
+2025-01-23 22:59:02.938 +05:00 [INF] 1 tasks found for user: mahmad.
+2025-01-23 22:59:17.201 +05:00 [INF] Task with ID 2 updated successfully.
+2025-01-23 22:59:17.265 +05:00 [INF] 1 tasks found for user: mahmad.
+2025-01-23 22:59:46.098 +05:00 [INF] Fetched task with ID 2.
+2025-01-23 22:59:46.108 +05:00 [INF] Fetched task with ID 2.
+2025-01-23 22:59:54.037 +05:00 [INF] Task with ID 2 updated successfully.
+2025-01-23 22:59:54.079 +05:00 [INF] 1 tasks found for user: mahmad.
+2025-01-23 22:59:59.245 +05:00 [INF] Task with ID 2 deleted successfully.
+2025-01-23 22:59:59.312 +05:00 [WRN] No tasks found for user: mahmad.
+2025-01-23 23:00:13.973 +05:00 [INF] Task with ID 3 created successfully.
+2025-01-23 23:00:14.023 +05:00 [INF] 1 tasks found for user: mahmad.
+2025-01-23 23:02:10.312 +05:00 [INF] Register endpoint called for username: safee@admin.
+2025-01-23 23:02:10.316 +05:00 [INF] Register method called for username: safee@admin
+2025-01-23 23:02:10.744 +05:00 [INF] User 'safee@admin' registered successfully with ID 3.
+2025-01-23 23:02:10.749 +05:00 [INF] User registered successfully with username: safee@admin.
+2025-01-23 23:02:26.211 +05:00 [INF] Login endpoint called for username: safee@admin.
+2025-01-23 23:02:26.217 +05:00 [INF] Login method called for username: safee@admin
+2025-01-23 23:02:26.723 +05:00 [INF] Generating JWT token for username: safee@admin.
+2025-01-23 23:02:26.727 +05:00 [INF] JWT token generated successfully for username: safee@admin.
+2025-01-23 23:02:26.730 +05:00 [INF] Login successful for username: safee@admin. JWT token generated.
+2025-01-23 23:02:26.734 +05:00 [INF] User logged in successfully: safee@admin.
+2025-01-23 23:02:26.753 +05:00 [INF] GetUserByUsername endpoint called with username: safee@admin.
+2025-01-23 23:02:26.760 +05:00 [INF] User with username safee@admin retrieved successfully.
+2025-01-23 23:02:26.782 +05:00 [INF] Fetched 2 tasks from the database.
+2025-01-23 23:02:26.795 +05:00 [INF] Fetched 2 tasks from the database.
+2025-01-23 23:04:35.206 +05:00 [INF] GetUserByUsername endpoint called with username: safee@admin.
+2025-01-23 23:04:35.279 +05:00 [INF] Fetched 1 tasks from the database.
+2025-01-23 23:04:35.372 +05:00 [INF] Fetched 1 tasks from the database.
+2025-01-23 23:04:35.493 +05:00 [INF] User with username safee@admin retrieved successfully.
+2025-01-23 23:04:35.577 +05:00 [INF] GetUserByUsername endpoint called with username: safee@admin.
+2025-01-23 23:04:35.636 +05:00 [INF] Fetched 1 tasks from the database.
+2025-01-23 23:04:35.666 +05:00 [INF] User with username safee@admin retrieved successfully.
+2025-01-23 23:04:35.776 +05:00 [INF] Fetched 1 tasks from the database.
+2025-01-23 23:07:39.258 +05:00 [INF] GetUserByUsername endpoint called with username: safee@admin.
+2025-01-23 23:07:39.294 +05:00 [INF] Fetched 1 tasks from the database.
+2025-01-23 23:07:39.356 +05:00 [INF] User with username safee@admin retrieved successfully.
+2025-01-23 23:07:39.413 +05:00 [INF] Fetched 1 tasks from the database.
+2025-01-23 23:07:39.566 +05:00 [INF] GetUserByUsername endpoint called with username: safee@admin.
+2025-01-23 23:07:39.614 +05:00 [INF] User with username safee@admin retrieved successfully.
+2025-01-23 23:07:39.622 +05:00 [INF] Fetched 1 tasks from the database.
+2025-01-23 23:07:39.728 +05:00 [INF] Fetched 1 tasks from the database.
+2025-01-23 23:08:03.367 +05:00 [INF] GetUserByUsername endpoint called with username: safee@admin.
+2025-01-23 23:08:03.523 +05:00 [INF] Fetched 1 tasks from the database.
+2025-01-23 23:08:03.537 +05:00 [INF] User with username safee@admin retrieved successfully.
+2025-01-23 23:08:04.490 +05:00 [INF] Fetched 1 tasks from the database.
+2025-01-23 23:08:04.697 +05:00 [INF] GetUserByUsername endpoint called with username: safee@admin.
+2025-01-23 23:08:04.894 +05:00 [INF] User with username safee@admin retrieved successfully.
+2025-01-23 23:08:04.896 +05:00 [INF] Fetched 1 tasks from the database.
+2025-01-23 23:08:05.609 +05:00 [INF] Fetched 1 tasks from the database.
+2025-01-23 23:08:27.686 +05:00 [INF] Fetched 1 tasks from the database.
+2025-01-23 23:08:27.759 +05:00 [INF] GetUserByUsername endpoint called with username: safee@admin.
+2025-01-23 23:08:28.504 +05:00 [INF] Fetched 1 tasks from the database.
+2025-01-23 23:08:28.580 +05:00 [INF] User with username safee@admin retrieved successfully.
+2025-01-23 23:08:28.753 +05:00 [INF] GetUserByUsername endpoint called with username: safee@admin.
+2025-01-23 23:08:28.874 +05:00 [INF] Fetched 1 tasks from the database.
+2025-01-23 23:08:29.220 +05:00 [INF] User with username safee@admin retrieved successfully.
+2025-01-23 23:08:29.464 +05:00 [INF] Fetched 1 tasks from the database.
+2025-01-23 23:08:44.735 +05:00 [INF] GetUserByUsername endpoint called with username: safee@admin.
+2025-01-23 23:08:44.785 +05:00 [INF] User with username safee@admin retrieved successfully.
+2025-01-23 23:08:44.785 +05:00 [INF] Fetched 1 tasks from the database.
+2025-01-23 23:08:44.822 +05:00 [INF] GetUserByUsername endpoint called with username: safee@admin.
+2025-01-23 23:08:44.884 +05:00 [INF] Fetched 1 tasks from the database.
+2025-01-23 23:08:45.000 +05:00 [INF] User with username safee@admin retrieved successfully.
+2025-01-23 23:08:45.123 +05:00 [INF] Fetched 1 tasks from the database.
+2025-01-23 23:08:45.236 +05:00 [INF] Fetched 1 tasks from the database.
+2025-01-23 23:11:05.242 +05:00 [INF] GetUserByUsername endpoint called with username: safee@admin.
+2025-01-23 23:11:05.555 +05:00 [INF] Fetched 1 tasks from the database.
+2025-01-23 23:11:05.945 +05:00 [INF] User with username safee@admin retrieved successfully.
+2025-01-23 23:11:06.124 +05:00 [INF] Fetched 1 tasks from the database.
+2025-01-23 23:11:06.253 +05:00 [INF] GetUserByUsername endpoint called with username: safee@admin.
+2025-01-23 23:11:06.554 +05:00 [INF] Fetched 1 tasks from the database.
+2025-01-23 23:11:06.579 +05:00 [INF] User with username safee@admin retrieved successfully.
+2025-01-23 23:11:06.839 +05:00 [INF] Fetched 1 tasks from the database.
